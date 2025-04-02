@@ -155,3 +155,7 @@ div.decorator::after {
 div.decorator::before {
   content: none;
 }
+
+.main-block.concise .details div:not(.concise) {
+  padding: 0.03in 0 0.01in 0;
+}

@@ -21,16 +21,16 @@ fontawesome::fa_html_dependency()
 source("cv_printing_functions.r")
 
 
-# Read in all data and initialize a CV printer object
-CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc",
-  pdf_mode = FALSE,
-  resume_mode = TRUE
-)
+# # Read in all data and initialize a CV printer object
+# CV <- create_CV_object(
+#   data_location = "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc",
+#   pdf_mode = FALSE,
+#   resume_mode = TRUE
+# )
 
 # saveRDS(CV, "cached_cv_data")
 
-# CV <-  readRDS("cached_cv_data")
+CV <-  readRDS("cached_cv_data")
 
 
 ```
@@ -70,7 +70,7 @@ if(params$pdf_mode){
 ```
 
 
-For a longer form version, see my [CV](nickstrayer.me/cv/).
+For a longer form version, see my [CV](https://nickstrayer.me/cv/).
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -81,12 +81,30 @@ CV |> print_contact_info()
 
 
 
-Language Skills {#skills}
+Technical Skills {#skills}
 --------------------------------------------------------------------------------
 
-```{r}
-CV |> print_skill_bars()
-```
+I have professional experience with the following languages, technologies, and concepts
+
+**Languages:**
+
+- Typescript, Python, R, Rust, C++, GLSL
+
+**Frontend:**
+
+- React, D3.js, three.js, rgl, redux
+
+**Technical strengths:**
+
+- Software architecture, rendering optimization, algorithmic efficiency
+
+**Application types:**
+
+- Data dashboards, Statistical algorithm implementations, Data processing pipelines, IDEs.
+
+
+
+
 
 
 
