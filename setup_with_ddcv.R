@@ -1,11 +1,11 @@
 library(datadrivencv)
 library(here)
 use_datadriven_cv(
-  full_name = "Nick Strayer",
-  data_location = "https://docs.google.com/spreadsheets/d/14MQICF2F8-vf8CKPF1m4lyGKO6_thG-4aSwat1e2TWc",
-  pdf_location = "https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf",
-  html_location = "nickstrayer.me/cv/",
-  source_location = "https://github.com/nstrayer/cv",
+  full_name = "Alex Matunas",
+  data_location = "https://docs.google.com/spreadsheets/d/1jEVhhHp2Lu9hL0hjY1hyt2YWHf1S9oODmuBqTqAfTo8",
+  pdf_location = "https://github.com/IAmTheTuna/cv/raw/master/matunas_cv.pdf",
+  html_location = "alexmatunas.me/cv/",
+  source_location = "https://github.com/IAmTheTuna/cv",
   output_dir = here(),
   open_files = FALSE
 )
